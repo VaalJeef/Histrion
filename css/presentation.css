@@ -1,0 +1,128 @@
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+}
+
+.p_sct_top {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h_top {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 32px 128px;
+}
+
+.p_img_top {
+    background-image: url(/assets/troupe.webp);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 90%;
+}
+
+.fa-circle-chevron-down {
+    position: absolute;
+    color: #EC0928;
+    top: 90%;
+    left: 50%;
+}
+
+.deco {
+    background: #EC0928;
+    height: 8px;
+    width: 64px;
+    align-self: flex-start;
+    border-radius: 0 50%;
+}
+
+.p_img1 {
+    background-image: url(/assets/cover-sephorapondi.webp);
+    height: 65vh;
+    width: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 90%;
+}
+
+.p_txt1 {
+    height: 65vh;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    text-align: justify;
+}
+
+.p_img2 {
+    background-image: url(/assets/cover-noammorgensztern.webp);
+    height: 65vh;
+    width: 65%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 90%;
+}
+
+.p_txt2 {
+    height: 65vh;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    text-align: justify;
+}
+
+.p_img3 {
+    background-image: url(/assets/cover-michelvuillermoz.webp);
+    height: 65vh;
+    width: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 90%;
+}
+
+.p_txt3 {
+    height: 65vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    text-align: justify;
+}
+
+.p_img4 {
+    background-image: url(/assets/cover-sulianebrahim.webp);
+    height: 65vh;
+    width: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 90%;
+}
+
+.p_txt4 {
+    height: 65vh;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    text-align: justify;
+}
