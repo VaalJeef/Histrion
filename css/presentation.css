@@ -175,3 +175,13 @@ h2 {
     padding: 0 5%;
     text-align: justify;
 }
+
+.p_bottom {
+    height: 70vh;
+    width: 100%;
+    background-image: url(/assets/img/troupe.webp);
+    opacity: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
