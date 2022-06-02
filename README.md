@@ -4,16 +4,25 @@ Site Web fictif sur un théâtre et sa troupe.
 
 Sources et inspirations :
 
-https://fonts.google.com/
+Polices https://fonts.google.com/
 
-https://favicon.io/
+Favicon https://favicon.io/
 
-https://www.freeconvert.com/video-compressor
+Compression vidéo https://www.freeconvert.com/video-compressor
 
-https://convertio.co/fr/
+Convertisseur WebP https://convertio.co/fr/
 
-https://www.pexels.com/
+Images et vidéos https://www.pexels.com/
 
-https://www.comedie-francaise.fr/
+Inspiration https://www.comedie-francaise.fr/
 
-https://skiff.com/
+Navbar https://skiff.com/
+
+Glassmorphism https://css.glass/
+
+Logo (modifié sur illustrator) https://www.freelogodesign.org/
+
+Icons https://fontawesome.com/
+
+Astuces https://developer.mozilla.org/fr/
+https://www.w3schools.com/
