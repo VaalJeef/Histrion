@@ -4,7 +4,7 @@ Site Web fictif sur un théâtre et sa troupe.
 
 Sources et inspirations :
 
-Polices https://fonts.google.com/
+Polices https://fonts.google.com/ https://en.bestfonts.pro/
 
 Favicon https://favicon.io/
 
