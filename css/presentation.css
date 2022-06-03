@@ -1,5 +1,5 @@
 h2 {
-    font-family: 'IM Fell English', serif;
+    font-family: "Helvetica Now Display", sans-serif;
     font-size: 32px;
 }
 
@@ -12,7 +12,6 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    box-sizing: border-box;
     z-index: -1;
 }
 
@@ -27,7 +26,7 @@ h2 {
     display: flex;
     justify-content: center;
     position: relative;
-    height: 70vh;
+    height: 100vh;
 }
 
 .p_div_top2 {
@@ -35,17 +34,17 @@ h2 {
     flex-direction: column;
     align-items: center;
     align-content: center;
-    width: 40%;
+    width: 50%;
     padding: 5% 0;
 }
 
-.h1_top {
+/* .h1_top {
     position: absolute;
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.5);
     padding: 32px 128px;
-}
+} */
 
 .h2_top {
     text-align: center;
@@ -70,12 +69,12 @@ h2 {
     width: 96px;
 }
 
-.hist {
+.name {
     font-family: 'IM Fell English', serif;
     font-size: 32px;
 }
 
-.p_img_top {
+/* .p_img_top {
     background-image: url(/assets/img/troupe.webp);
     height: 30vh;
     width: 100%;
@@ -83,19 +82,35 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 90%;
-}
+} */
 
-.fa-caret-down {
+.fa-angle-down {
     position: absolute;
     color: #EC0928;
-    top: 85%;
+    top: 80%;
     left: 50%;
+}
+
+.p_sct1 {
+    background-color: #A9E5BB;
+}
+
+.p_sct2 {
+    background-color: #EADAA2;
+}
+
+.p_sct3 {
+    background-color: #B2A3B5;
+}
+
+.p_sct4 {
+    background-color: #FFD046;
 }
 
 .p_img1 {
     background-image: url(/assets/img/cover-sephorapondi.webp);
     height: 65vh;
-    width: 75%;
+    width: 65%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -104,7 +119,7 @@ h2 {
 
 .p_txt1 {
     height: 65vh;
-    width: 25%;
+    width: 35%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -137,7 +152,7 @@ h2 {
 .p_img3 {
     background-image: url(/assets/img/cover-michelvuillermoz.webp);
     height: 65vh;
-    width: 70%;
+    width: 65%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -146,7 +161,7 @@ h2 {
 
 .p_txt3 {
     height: 65vh;
-    width: 30%;
+    width: 35%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -158,7 +173,7 @@ h2 {
 .p_img4 {
     background-image: url(/assets/img/cover-sulianebrahim.webp);
     height: 65vh;
-    width: 80%;
+    width: 65%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -167,7 +182,7 @@ h2 {
 
 .p_txt4 {
     height: 65vh;
-    width: 20%;
+    width: 35%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -177,11 +192,23 @@ h2 {
 }
 
 .p_bottom {
-    height: 70vh;
+    height: 60vh;
     width: 100%;
     background-image: url(/assets/img/troupe.webp);
     opacity: 90%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.p_top:hover+.definition {
+    display: block;
+    color: white;
+    font-size: 24px;
+    background-color: #EC0928;
+    text-align: center;
+}
+
+.definition {
+    display: none;
 }
