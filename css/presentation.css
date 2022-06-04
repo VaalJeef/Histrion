@@ -1,32 +1,29 @@
 h2 {
     font-family: "Helvetica Now Display", sans-serif;
-    font-size: 32px;
+    font-size: 2rem;
 }
 
-.p_img {
+.p_vid {
     height: 100%;
     width: 100%;
-    background-image: url(/assets/img/moliere.webp);
     position: absolute;
-    opacity: 8%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    /* opacity: 50%; */
+    /* background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover; */
     z-index: -1;
 }
 
-.p_sct_top {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.p_sct_top2 {
+.p_sct_top {
     display: flex;
     justify-content: center;
     position: relative;
     height: 100vh;
+}
+
+.border {
+    border: solid 1px black;
 }
 
 .p_div_top2 {
@@ -41,48 +38,46 @@ h2 {
 /* .h1_top {
     position: absolute;
     background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(150px);
     border: 1px solid rgba(255, 255, 255, 0.5);
     padding: 32px 128px;
 } */
+.p_div_top2 {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(30px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 32px 128px;
+}
 
 .h2_top {
     text-align: center;
-    font-size: 48px;
+    font-size: 3rem;
 }
 
 .p_top {
-    font-size: 24px;
+    font-size: 1.5rem;
     text-align: justify;
+    display: none;
 }
 
 .deco {
     background: #EC0928;
     height: 8px;
-    width: 64px;
+    width: 4rem;
     align-self: flex-start;
     border-radius: 0 50%;
 }
 
 .deco2 {
     align-self: center;
-    width: 96px;
+    width: 16rem;
 }
 
 .name {
     font-family: 'IM Fell English', serif;
-    font-size: 32px;
+    font-size: 2rem;
 }
 
-/* .p_img_top {
-    background-image: url(/assets/img/troupe.webp);
-    height: 30vh;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 90%;
-} */
 
 .fa-angle-down {
     position: absolute;
@@ -192,23 +187,34 @@ h2 {
 }
 
 .p_bottom {
-    height: 60vh;
+    height: 30vh;
     width: 100%;
-    background-image: url(/assets/img/troupe.webp);
+    background-image: url(/assets/img/moliere.webp);
     opacity: 90%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.p_top:hover+.definition {
+/* .p_top:hover+.definition {
     display: block;
     color: white;
-    font-size: 24px;
+    font-size: 1.5rem;
     background-color: #EC0928;
     text-align: center;
 }
 
 .definition {
     display: none;
+} */
+
+.hidden_text:hover+.p_top {
+    display: block;
+    background-color: #FDEBEE;
+    border-radius: 2rem;
+    padding: 3rem;
+}
+
+.hidden_text:hover {
+    cursor: help;
 }

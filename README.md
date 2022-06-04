@@ -8,7 +8,7 @@ Polices https://fonts.google.com/ https://en.bestfonts.pro/
 
 Favicon https://favicon.io/
 
-Compression vidéo https://www.freeconvert.com/video-compressor https://videocandy.com/
+Compression vidéo https://www.freeconvert.com/video-compressor https://videocandy.com/ https://kamua.com/tinyvid
 
 Convertisseur WebP https://convertio.co/fr/
 
